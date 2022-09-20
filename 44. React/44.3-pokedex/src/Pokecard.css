@@ -1,0 +1,34 @@
+:root {
+  --bgColor: #dadada;
+  --nameColor: #003cff;
+}
+
+.Pokecard {
+  background-color: var(--bgColor);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 250px;
+
+  margin: 50px;
+  padding: 20px;
+
+  border-radius: 40px;
+}
+
+.Pokecard-name {
+  color: var(--nameColor);
+  font-size: 1.5rem;
+}
+
+.Pokecard-img {
+  width: 150px;
+}
+
+.Pokecard-txt {
+  margin: 0;
+  font-size: 1.2rem;
+}
